@@ -3,7 +3,7 @@ export GPG_TTY=$(tty)
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 zstyle ':autocomplete:*' ignored-input '..##'
-#source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+#source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 #bindkey '^[[A' history-substring-search-up
 #bindkey '^[[B' history-substring-search-down
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
